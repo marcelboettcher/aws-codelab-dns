@@ -1,5 +1,5 @@
 provider "aws" {
   region = "eu-central-1"
-  profile = "codelab"
+  profile = "marcel"
   version = "1.37"
 }
