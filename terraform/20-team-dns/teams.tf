@@ -4,10 +4,10 @@ resource "aws_route53_record" "team1" {
   type = "NS"
   ttl = 60 // seconds
   records = [
-    "ns-1609.awsdns-09.co.uk.",
-    "ns-1226.awsdns-25.org.",
-    "ns-937.awsdns-53.net.",
-    "ns-1.awsdns-00.com."
+    "ns-794.awsdns-35.net.",
+    "ns-128.awsdns-16.com.",
+    "ns-1198.awsdns-21.org.",
+    "ns-1565.awsdns-03.co.uk.",
   ]
 }
 
