@@ -4,10 +4,10 @@ resource "aws_route53_record" "team1" {
   type = "NS"
   ttl = 60 // seconds
   records = [
-    "ns-794.awsdns-35.net.",
-    "ns-128.awsdns-16.com.",
-    "ns-1198.awsdns-21.org.",
-    "ns-1565.awsdns-03.co.uk.",
+    "ns-1849.awsdns-39.co.uk.",
+    "ns-1303.awsdns-34.org.",
+    "ns-1017.awsdns-63.net.",
+    "ns-82.awsdns-10.com.",
   ]
 }
 
@@ -17,10 +17,10 @@ resource "aws_route53_record" "team2" {
   type = "NS"
   ttl = 60 // seconds
   records = [
-    "ns-874.awsdns-45.net.",
-    "ns-1523.awsdns-62.org.",
-    "ns-2036.awsdns-62.co.uk.",
-    "ns-192.awsdns-24.com.",
+    "ns-1432.awsdns-51.org.",
+    "ns-1751.awsdns-26.co.uk.",
+    "ns-875.awsdns-45.net.",
+    "ns-507.awsdns-63.com.",
   ]
 }
 
@@ -30,10 +30,10 @@ resource "aws_route53_record" "team3" {
   type = "NS"
   ttl = 60 // seconds
   records = [
-    "ns-1590.awsdns-06.co.uk.",
-    "ns-153.awsdns-19.com.",
-    "ns-1294.awsdns-33.org.",
-    "ns-698.awsdns-23.net.",
+    "ns-928.awsdns-52.net.",
+    "ns-50.awsdns-06.com.",
+    "ns-1428.awsdns-50.org.",
+    "ns-1853.awsdns-39.co.uk.",
   ]
 }
 
@@ -43,10 +43,10 @@ resource "aws_route53_record" "team4" {
   type = "NS"
   ttl = 60 // seconds
   records = [
-    "ns-246.awsdns-30.com.",
-    "ns-1452.awsdns-53.org.",
-    "ns-1942.awsdns-50.co.uk.",
-    "ns-797.awsdns-35.net.",
+    "ns-1737.awsdns-25.co.uk.",
+    "ns-351.awsdns-43.com.",
+    "ns-800.awsdns-36.net.",
+    "ns-1141.awsdns-14.org.",
   ]
 }
 
@@ -56,9 +56,9 @@ resource "aws_route53_record" "team5" {
   type = "NS"
   ttl = 60 // seconds
   records = [
-    "ns-1658.awsdns-15.co.uk.",
-    "ns-104.awsdns-13.com.",
-    "ns-523.awsdns-01.net.",
-    "ns-1078.awsdns-06.org.",
+    "ns-1020.awsdns-63.net.",
+    "ns-185.awsdns-23.com.",
+    "ns-1723.awsdns-23.co.uk.",
+    "ns-1073.awsdns-06.org.",
   ]
 }
